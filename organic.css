@@ -1,0 +1,132 @@
+body {
+	background-color: white;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+	margin: 20px 30px 20px 30px;
+	height: 200px;
+	background-image: url('https://static.vecteezy.com/system/resources/thumbnails/025/374/136/small_2x/an-assortment-of-fresh-fruits-and-vegetables-on-a-green-background-created-with-generative-ai-technology-free-photo.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+}
+
+header h1 {
+	font-size: 40px;
+	padding-left: 40px;
+	font-style: italic;
+}
+
+.section1 {
+	margin: 20px 30px 20px 30px;
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	column-gap: 10px;
+
+}
+
+.article11 {
+	border: 2px solid black;
+	padding: 20px;
+	background-color: #FDFCF7;
+}
+
+.article12 {
+	padding: 10px 0 10px 40px;
+	border: 2px solid black;
+	background-color: #FBF7EF;
+}
+
+.item {
+	border: 2px solid black;
+}
+
+.section2-heading {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.section2 {
+	margin: 10px 30px 20px 30px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	justify-content: center;
+	column-gap: 20px;
+	text-align: center;
+
+}
+
+.article21 {
+	background-color: #FDFBF4;
+}
+
+.article22 {
+	background-color: #F2F8F2;
+}
+
+.article23 {
+	background-color: #FBF7EF;
+}
+
+.article21,
+.article22,
+.article23 {
+	padding: 10px;
+}
+
+.article21 img,
+.article22 img,
+.article23 img {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+
+.section3-heading {
+	text-align: center;
+	margin: 50px 30px 20px 30px;
+}
+
+.section3 {
+	max-width: 700px;
+	height: auto;
+	border: 2px solid black;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	padding: 20px;
+	border: 2px solid black;
+	margin-left: auto;
+	margin-right: auto;
+
+
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+	header h1 {
+		font-size: 30px;
+		text-align: left;
+		padding-left: 10px;
+	}
+
+	.section1 {
+		grid-template-columns: 1fr;
+		row-gap: 10px;
+	}
+
+	.article12 {
+		padding-left: 20px;
+	}
+
+	.section2 {
+		grid-template-columns: 1fr;
+		row-gap: 10px;
+	}
+}
